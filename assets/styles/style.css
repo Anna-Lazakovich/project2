@@ -56,3 +56,11 @@ h3{
     border: 1px solid black;
 
 }
+.info {
+    background-image: url(../images/backgroundinfo.jpg);
+    width: 100vw;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
