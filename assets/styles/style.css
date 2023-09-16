@@ -23,12 +23,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.block-4__textbold {
-  color: black;
-  font-size: 1,5em;
-  font-weight: 700;
+  margin-bottom: 30px;
 }
 
 .block-4__point {
@@ -36,6 +31,27 @@
   flex-direction: row;
   align-items: center;
   border: 1px solid black;
+  margin: 10px;
+  padding-right: 40px;
+}
+
+.block-4__number {
+  color: rgb(183, 145, 95);
+  font-size: 1.3em;
+  font-weight: 500;
+  margin: 20px 40px 20px 20px;
+}
+
+.block-4__text {
+  color: black;
+  font-size: 1em;
+  font-weight: 300;
+}
+
+.block-4__textbold {
+  color: black;
+  font-size: 1em;
+  font-weight: 700;
 }
 
 .block-5 {
