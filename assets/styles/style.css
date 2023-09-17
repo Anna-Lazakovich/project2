@@ -1,34 +1,60 @@
+.header__link-container {
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    list-style-type: none;
+    
+}
+
+.header__link {
+    text-decoration: none;
+    float: left;
+    width: calc(100% / 5);
+    /*height: 110px;
+    line-height: 110px;
+    text-align: center;
+    border-left: 1px solid #7a0202;*/
+    box-sizing: border-box;
+    
+}
+
+nav img {
+    
+    height: 110px;
+}
+
+h1 {
+    width: 100vw;
+}
+
+
 .block-1 {
-  background-image: url(../images/backgroundinfo.jpg);
-  width: 100vw;
-  height: 70vh;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 0;
-  display: flex;
+    background-image: url(../images/backgroundinfo.jpg);
+    width: 100vw;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    display: flex;
 }
 
 .text {
-  color: black;
-  font-size: 1em;
-  font-weight: 300;
+    color: black;
+    font-size: 1em;
+    font-weight: 300;
 }
 .text-bold {
-  color: black;
-  font-size: 1em;
-  font-weight: 700;
+    color: black;
+    font-size: 1em;
+    font-weight: 700;
 }
 
 .block-4 {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.block-4__textbold {
-  color: black;
-  font-size: 1,5em;
-  font-weight: 700;
+  margin-bottom: 30px;
 }
 
 .block-4__point {
@@ -36,12 +62,33 @@
   flex-direction: row;
   align-items: center;
   border: 1px solid black;
+  margin: 10px;
+  padding-right: 40px;
+}
+
+.block-4__number {
+  color: rgb(183, 145, 95);
+  font-size: 1.3em;
+  font-weight: 500;
+  margin: 20px 40px 20px 20px;
+}
+
+.block-4__text {
+  color: black;
+  font-size: 1em;
+  font-weight: 300;
+}
+
+.block-4__textbold {
+  color: black;
+  font-size: 1em;
+  font-weight: 700;
 }
 
 .block-5 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .block-5__container {
   margin: 0 10vw 10vw 10vw;
@@ -68,13 +115,6 @@
   padding: 5px;
   color: rgb(183, 145, 95);
   text-decoration: none;
-}
-.info {
-  background-image: url(../images/backgroundinfo.jpg);
-  width: 100vw;
-  height: 70vh;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 /* Блок 3 */
