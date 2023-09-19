@@ -240,7 +240,15 @@ h1 {
 .block-5__container > div > p {
     padding: 0 15px 0 15px;
 }
-.block-5__container > div > a {
+.block-5__container-link {
+    background-color: white;
+    border-top: 1.5px solid rgb(183, 145, 95);
+    color: rgb(183, 145, 95);
+    text-decoration: none;
+    padding: 15px;
+    text-align: center;
+}
+.block-5__container-link {
     background-color: white;
     border-top: 1.5px solid rgb(183, 145, 95);
     color: rgb(183, 145, 95);
