@@ -1,1 +1,17 @@
-@import "variables.scss"
+@import "variables.scss";
+
+.block-4__header {
+    font-family: $accent-font;
+}
+
+.block-4__text {
+    font-family: $accent-font;
+}
+
+.block-4__number {
+    font-family: $accent-font;
+}
+
+.block-4__textbold {
+    font-family: $default-font;
+}
