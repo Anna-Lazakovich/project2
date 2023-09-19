@@ -1,3 +1,63 @@
+@font-face {
+    src: url(/assets/fonts/ZenKakuGothicNew-Light.ttf);
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    src: url(/assets/fonts/ZenKakuGothicNew-Regular.ttf);
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    src: url(/assets/fonts/ZenKakuGothicNew-Medium.ttf);
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    src: url(/assets/fonts/ZenKakuGothicNew-Bold.ttf);
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    src: url(/assets/fonts/ZenKakuGothicNew-Black.ttf);
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    src: url(/assets/fonts/Podkova-Regular.ttf);
+    font-family: 'Podkova', serif;
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    src: url(/assets/fonts/Podkova-Medium.ttf);
+    font-family: 'Podkova', serif;
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    src: url(/assets/fonts/Podkova-SemiBold.ttf);
+    font-family: 'Podkova', serif;
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    src: url(/assets/fonts/Podkova-Bold.ttf);
+    font-family: 'Podkova', serif;
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    src: url(/assets/fonts/Podkova-ExtraBold.ttf);
+    font-family: 'Podkova', serif;
+    font-weight: 800;
+    font-style: normal;
+}
 
 .header {
     width: 100%;
@@ -125,19 +185,27 @@ h1 {
 }
 .block-4__number {
     color: rgb(183, 145, 95);
-    font-size: 1.3em;
-    font-weight: 500;
+    font-size: 1.2em;
     margin: 20px 40px 20px 20px;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-weight: 500;
 }
 .block-4__text {
     color: black;
-    font-size: 1em;
+    font-size: 0.9em;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
     font-weight: 300;
 }
 .block-4__textbold {
     color: black;
-    font-size: 1em;
+    font-size: 1.2em;
+    font-family: 'Podkova', serif;
     font-weight: 700;
+}
+
+.block-4__header {
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-weight: 300;
 }
 
 /* Блок 5 */
@@ -171,7 +239,15 @@ h1 {
 .block-5__container > div > p {
     padding: 0 15px 0 15px;
 }
-.block-5__container > div > a {
+.block-5__container-link {
+    background-color: white;
+    border-top: 1.5px solid rgb(183, 145, 95);
+    color: rgb(183, 145, 95);
+    text-decoration: none;
+    padding: 15px;
+    text-align: center;
+}
+.block-5__container-link {
     background-color: white;
     border-top: 1.5px solid rgb(183, 145, 95);
     color: rgb(183, 145, 95);
