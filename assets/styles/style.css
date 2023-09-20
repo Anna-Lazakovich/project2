@@ -288,8 +288,9 @@
 @media screen and (max-width: 450px) {
     .block-4__box {
     width: 80%;
+    }
 }
-  
+
 /*NEWS-PAGE*/
 
 .block-news {
@@ -338,7 +339,7 @@
     background-size: cover;
     border-bottom: 1.5px solid rgba(183, 145, 95, 0.5);
     display: flex;
-    height: 100vh;
+    height: 80vh;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
