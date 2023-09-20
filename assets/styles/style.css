@@ -10,7 +10,6 @@
     margin: 0;
     list-style-type: none;
     padding: 15px;
-    
 }
 .header__link {
     color: black;
@@ -18,7 +17,6 @@
 }
 
 .header__logo {
-    
     height: 110px;
 }
 h1 {
@@ -60,10 +58,10 @@ h1 {
 /* Блок 2 */
 
 .block-2 {
+    margin: 0 10vw 10vw 10vw;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0;
+    flex-direction: row;
+    
 }
 
 /* Блок 3 */
