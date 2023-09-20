@@ -1,27 +1,64 @@
+@font-face {
+    src: url(/assets/fonts/ZenKakuGothicNew-Light.ttf);
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    src: url(/assets/fonts/ZenKakuGothicNew-Regular.ttf);
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    src: url(/assets/fonts/ZenKakuGothicNew-Medium.ttf);
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    src: url(/assets/fonts/ZenKakuGothicNew-Bold.ttf);
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    src: url(/assets/fonts/ZenKakuGothicNew-Black.ttf);
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    src: url(/assets/fonts/Podkova-Regular.ttf);
+    font-family: 'Podkova', serif;
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    src: url(/assets/fonts/Podkova-Medium.ttf);
+    font-family: 'Podkova', serif;
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    src: url(/assets/fonts/Podkova-SemiBold.ttf);
+    font-family: 'Podkova', serif;
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    src: url(/assets/fonts/Podkova-Bold.ttf);
+    font-family: 'Podkova', serif;
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    src: url(/assets/fonts/Podkova-ExtraBold.ttf);
+    font-family: 'Podkova', serif;
+    font-weight: 800;
+    font-style: normal;
+}
 
-.header {
-    width: 100%;
-}
-.header__link-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    margin: 0;
-    list-style-type: none;
-    padding: 15px;
-}
-.header__link {
-    color: black;
-    text-decoration: none;
-}
-
-.header__logo {
-    height: 110px;
-}
-h1 {
-    width: 100vw;
-}
 .text {
     color: black;
     font-size: 1em;
@@ -32,27 +69,61 @@ h1 {
     font-size: 1em;
     font-weight: 700;
 }
+
+/* Header */
+
+.header {
+    width: 100vw;
+    background-color: rgba(183, 145, 95, 0.1);
+    border-bottom: 1.5px solid rgba(183, 145, 95, 0.5);
+    font-size: 1.1em;
+}
+.header__link-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 5%;
+    list-style-type: none;
+    padding: 10px;
+    
+}
+.header__link {
+    color: black;
+    text-decoration: none;
+}
+.header__logo {
+    max-height: 60px;
+}
+
 /* Блок 1 */
 
-.main-container {
-    background-image: url(../images/01_Main_Picture.jpg);
-    width: 100%;
+.block-1 {
+    background-image: url(../images/06_main_picture_opacity.png);
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 0;
-    display: flex;
-    border-top: 1.5px solid rgb(183, 145, 95);
-    border-bottom: 1.5px solid rgb(183, 145, 95);
-}
-.second-container{
-    background-image: url(../images/02_backround_picture.jpg);
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0;
     display: flex;
     flex-direction: column;
-    border-bottom: 1.5px solid rgb(183, 145, 95);
+    border-bottom: 1.5px solid rgba(183, 145, 95, 0.5);
+    
+}
+
+.block-1__h1 {
+    width: 40%;
+    margin: 10% 0 0 10%;
+}
+
+.block-1__text {
+    width: 40%;
+    margin-left: 10%;
+}
+
+.block-1__button {
+    max-width: 20%;
+    padding: 20px;
+    margin: 10px 0 10% 10%;
+    border: 1.5px solid rgba(183, 145, 95, 0.5);
+    text-align: center;
 }
 
 /* Блок 2 */
@@ -73,7 +144,7 @@ h1 {
     margin: 15px;
 }
 
-.block-3_container{
+.block-3-container{
     width: 100%;
     display: grid;
     grid-gap: 30px;
@@ -82,13 +153,12 @@ h1 {
     justify-items: center;
 
 }
-.block-3_container__item{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.block-3-container__item{
+    text-align: center;
 }
-.block-3_container__text{
-    border:1.5px solid rgb(183, 145, 95);
+
+.block-3-container__text{
+    border:1.5px solid rgba(183, 145, 95, 0.5);
     padding:20px;
     background-color: white;
 
@@ -96,7 +166,7 @@ h1 {
 
 .third-container{
     background-image: url(../images/04_background_picture.jpg);
-    border-bottom: 1.5px solid rgb(183, 145, 95);
+    border-bottom: 1.5px solid rgba(183, 145, 95, 0.5);
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -117,26 +187,34 @@ h1 {
     display: flex;
     flex-direction: row;
     align-items: center;
-    border: 1px solid rgb(183, 145, 95);
+    border: 1px solid rgba(183, 145, 95, 0.5);
     margin: 10px;
     background-color: white;
     padding-right: 40px;
 }
 .block-4__number {
     color: rgb(183, 145, 95);
-    font-size: 1.3em;
-    font-weight: 500;
+    font-size: 1.2em;
     margin: 20px 40px 20px 20px;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-weight: 500;
 }
 .block-4__text {
     color: black;
-    font-size: 1em;
+    font-size: 0.9em;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
     font-weight: 300;
 }
 .block-4__textbold {
     color: black;
-    font-size: 1em;
+    font-size: 1.2em;
+    font-family: 'Podkova', serif;
     font-weight: 700;
+}
+
+.block-4__header {
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-weight: 300;
 }
 
 /* Блок 5 */
@@ -156,7 +234,7 @@ h1 {
 }
 .block-5__container > div {
     background-color: white;
-    border: 1.5px solid rgb(183, 145, 95);
+    border: 1.5px solid rgba(183, 145, 95, 0.5);
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -172,7 +250,7 @@ h1 {
 }
 .block-5__container-link {
     background-color: white;
-    border-top: 1.5px solid rgb(183, 145, 95);
+    border-top: 1.5px solid rgba(183, 145, 95, 0.5);
     color: rgb(183, 145, 95);
     text-decoration: none;
     padding: 15px;
@@ -180,7 +258,7 @@ h1 {
 }
 .block-5__container-link {
     background-color: white;
-    border-top: 1.5px solid rgb(183, 145, 95);
+    border-top: 1.5px solid rgba(183, 145, 95, 0.5);
     color: rgb(183, 145, 95);
     text-decoration: none;
     padding: 15px;
@@ -194,6 +272,7 @@ h1 {
     flex-direction: row;
     align-content: center;
     justify-content: space-around;
+    background-color: rgba(183, 145, 95, 0.5);;
 }
 .footer__link_social > a > img{
     width: 5vw;
