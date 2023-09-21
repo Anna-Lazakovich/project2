@@ -1,8 +1,4 @@
 
-*{
-    outline: 1px red solid;
-}
-
 @font-face {
   src: url(/assets/fonts/ZenKakuGothicNew-Light.ttf);
   font-family: "Zen Kaku Gothic New", sans-serif;
