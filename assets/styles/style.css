@@ -272,6 +272,13 @@
   text-decoration: none;
 }
 
+
+@media screen and (max-width: 450px) {
+    .block-4__box {
+    width: 80%;
+    }
+}
+
 /*NEWS-PAGE*/
 
 .block-news {
