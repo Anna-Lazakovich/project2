@@ -1,61 +1,61 @@
 
 @font-face {
-    src: url(/assets/fonts/ZenKakuGothicNew-Light.ttf);
-    font-family: "Zen Kaku Gothic New", sans-serif;
+    src: url(./assets/fonts/ZenKakuGothicNew-Light.ttf) format("truetype"); 
+    font-family: "Zen Kaku Gothic New";
     font-weight: 300;
     font-style: normal;
 }
 @font-face {
-    src: url(/assets/fonts/ZenKakuGothicNew-Regular.ttf);
-    font-family: "Zen Kaku Gothic New", sans-serif;
+    src: url(./assets/fonts/ZenKakuGothicNew-Regular.ttf) format("truetype");
+    font-family: "Zen Kaku Gothic New";
     font-weight: 400;
     font-style: normal;
 }
 @font-face {
-    src: url(/assets/fonts/ZenKakuGothicNew-Medium.ttf);
-    font-family: "Zen Kaku Gothic New", sans-serif;
+    src: url(./assets/fonts/ZenKakuGothicNew-Medium.ttf) format("truetype");
+    font-family: "Zen Kaku Gothic New";
     font-weight: 500;
     font-style: normal;
 }
 @font-face {
-    src: url(/assets/fonts/ZenKakuGothicNew-Bold.ttf);
-    font-family: "Zen Kaku Gothic New", sans-serif;
+    src: url(./assets/fonts/ZenKakuGothicNew-Bold.ttf) format("truetype");
+    font-family: "Zen Kaku Gothic New";
     font-weight: 700;
     font-style: normal;
 }
 @font-face {
-    src: url(/assets/fonts/ZenKakuGothicNew-Black.ttf);
-    font-family: "Zen Kaku Gothic New", sans-serif;
+    src: url(./assets/fonts/ZenKakuGothicNew-Black.ttf) format("truetype");
+    font-family: "Zen Kaku Gothic New";
     font-weight: 900;
     font-style: normal;
 }
 @font-face {
-    src: url(/assets/fonts/Podkova-Regular.ttf);
-    font-family: "Podkova", serif;
+    src: url(./assets/fonts/Podkova-Regular.ttf) format("truetype");
+    font-family: "Podkova";
     font-weight: 400;
     font-style: normal;
 }
 @font-face {
-    src: url(/assets/fonts/Podkova-Medium.ttf);
-    font-family: "Podkova", serif;
+    src: url(./assets/fonts/Podkova-Medium.ttf) format("truetype");
+    font-family: "Podkova";
     font-weight: 500;
     font-style: normal;
 }
 @font-face {
-    src: url(/assets/fonts/Podkova-SemiBold.ttf);
-    font-family: "Podkova", serif;
+    src: url(./assets/fonts/Podkova-SemiBold.ttf) format("truetype");
+    font-family: "Podkova";
     font-weight: 600;
     font-style: normal;
 }
 @font-face {
-    src: url(/assets/fonts/Podkova-Bold.ttf);
-    font-family: "Podkova", serif;
+    src: url(./assets/fonts/Podkova-Bold.ttf) format("truetype");
+    font-family: "Podkova";
     font-weight: 700;
     font-style: normal;
 }
 @font-face {
-    src: url(/assets/fonts/Podkova-ExtraBold.ttf);
-    font-family: "Podkova", serif;
+    src: url(./assets/fonts/Podkova-ExtraBold.ttf) format("truetype");
+    font-family: "Podkova";
     font-weight: 800;
     font-style: normal;
 }
