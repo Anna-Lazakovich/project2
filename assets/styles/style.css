@@ -253,7 +253,7 @@
     display: grid;
     grid-gap: 30px;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-template-rows: (2, 1fr);
+    grid-template-rows: 2, 1fr;
 }
 .block-news__container-text {
     background-color: white;
