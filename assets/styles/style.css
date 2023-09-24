@@ -87,7 +87,7 @@
 /* Блок 1 */
 
 .block-1 {
-    background-image: url(../images/06_main_picture_opacity.png);
+    background-image: url(../images/Main_picture_01.png);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -242,7 +242,7 @@
 /*NEWS-PAGE*/
 
 .block-news {
-    background-image: url(../images/06_main_picture_opacity.png);
+    background-image: url(../images/Main_picture_01.png);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -253,7 +253,7 @@
     display: grid;
     grid-gap: 30px;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-template-rows: 2, 1fr;
+    grid-template-rows: repeat(1, 2fr);
 }
 .block-news__container-text {
     background-color: white;
@@ -283,7 +283,7 @@
 /*CONTACT-PAGE*/
 
 .block-main {
-    background-image: url(../images/06_main_picture_opacity.png);
+    background-image: url(../images/Main_picture_01.png);
     background-repeat: no-repeat;
     background-size: cover;
     border-bottom: 1.5px solid rgba(183, 145, 95, 0.5);
@@ -342,6 +342,8 @@
 }
 .block-3 {
     text-align: center;
+
+    margin: 0 10vw 3vw 10vw;
 }
 .block-4__box {
     width: 80%;
