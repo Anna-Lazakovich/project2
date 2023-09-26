@@ -1,3 +1,4 @@
+
 @font-face {
   src: url(./assets/fonts/ZenKakuGothicNew-Light.ttf) format("truetype");
   font-family: "Zen Kaku Gothic New";
@@ -222,18 +223,36 @@
 
 .footer {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-content: center;
-  justify-content: space-around;
+  align-items: center;
+  justify-content: center;
   background-color: rgba(183, 145, 95, 0.5);
 }
+.footer__link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
 .footer__link-social > a > img {
-  width: 5vw;
+  width: 50px;
+  padding: 10px;
 }
-.footer > div {
-  padding: 15px;
+.footer__link > div > a {
+  color: black;
+  text-decoration: none;
 }
-.footer > div > a {
+.footer__bottom{
+  border-top:1px solid  rgba(183, 145, 95, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  width: 100%;
+}
+.footer__bottom > a{
   color: black;
   text-decoration: none;
 }
@@ -371,27 +390,29 @@
     text-align: center;
   }
 
+/* Footer */
 
-  .footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    background-color: rgba(183, 145, 95, 0.5);
-  }
-  .footer__link-social > a > img {
-    width: 10vw;
-  }
-  .footer > div {
-    padding: 15px;
-  }
-  .footer > div > a {
-    color: black;
-    text-decoration: none;
-  }
-  .footer__link-email {
-    display: none;
-  }
+.footer__link-email{
+  display: none;
+}
+.footer__link {
+  flex-direction: column;
+  margin-top: 10px;
+}
+.footer__link-social > a > img {
+  width: 30px;
+  padding: 5px;
+}
+
+.footer__bottom{
+  border-top:1px solid  rgba(183, 145, 95, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: start;
+  width: 100%;
+}
 
   /*CONTACT-PAGE*/
 
